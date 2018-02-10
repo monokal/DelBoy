@@ -12,7 +12,7 @@ from pymessenger.bot import Bot
 from engine.core.config import CoxyConfig
 from engine.core.log import CoxyLog
 
-# Initialise a global logger.
+# Instantiate a global logger.
 try:
     logger = logging.getLogger('coxy')
     logger.setLevel(logging.INFO)
